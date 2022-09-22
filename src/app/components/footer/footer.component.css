@@ -1,0 +1,62 @@
+.central{
+	display: flex;
+	
+}
+
+.footer-lista a{
+	display: flex;
+	text-decoration: none;
+	color: #4F4F4F;
+}
+
+.central a:hover {
+	text-decoration: underline;
+}
+
+.footer-lista2 {
+	display: flex;
+}
+
+.footer-lista2 a {
+	color: #4F4F4F;
+}
+
+.footer-lista-left {
+	display: flex;
+	list-style: none;
+	position: absolute;
+	left: 5px;
+	bottom: 0;
+}
+
+.footer-lista-left li {
+	margin-right: 25px;
+}
+
+.footer-lista-right li {
+	margin-right: 25px;
+}
+
+.footer-lista-right {
+	display: flex;
+	list-style: none;
+	position: absolute;
+	right: 5px;
+	bottom: 0;
+}
+
+.footer-lista-right a {
+	text-decoration: none;
+}
+
+.localizacao {
+	position: absolute;
+	width: 100%;
+	bottom: 40px;
+}
+
+.localizacao p {
+	position: absolute;
+	bottom: 0px;
+	left: 15px;
+}
